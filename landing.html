@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/landing.css">
+    <!--<link rel="stylesheet" href="CSS/reset.css">-->
+</head>
+<body>
+    <div class="background">
+      <img class="phoni" src="IMAGES/agriculture.png" alt="Gurieli">
+      <div class="cover" ></div>
+      <div class="languagebarcover">
+        <div class="languagebar">
+          <a href="#"><p>GEO</p></a>
+          <a href="#"><p>ENG</p></a>
+        </div>
+      </div>
+        <div class="content-container">
+          
+          <header>
+            <a href="landing.html"><img src="SVG/logo2.svg" alt="gurieli" class="logo"></a>
+            <!--<nav id="menuBox"  class="menu-box">
+              
+             <ul>
+                <li><a href="landing.html">Home</a></li>
+                <li>
+                  <a href="#history">Our Story</a>
+                  <ul class="dropdown">
+                    <li><a class="dropdowna" href="history.html">BRAND HISTORY</a></li>
+                    <li><a class="dropdowna" href="resources.html">PLANTATIONS & RESOURCES</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Products</a>
+                  <ul class="dropdown">
+                    <li>
+                      <a class="dropdowna" href="#">HOT BREW TEA</a>
+                      <ul class="dropdown-submenu">
+                        <li><a class="dropdowna" href="product_2.html">GURIELI CLASSIC</a></li>
+                        <li><a class="dropdowna" href="product_1.html">PREMIUM: PRINCE GURIELI</a></li>
+                        <li><a class="dropdowna" href="special.html">SPECIAL EDITION</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="dropdowna" href="product_3.html">ICED TEA</a></li>
+                  </ul>
+                </li>
+                <li><a href="export.html">Export</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>-->
+            <nav>
+              <ul>
+                <li><a href="landing.html">Home</a></li>
+                <li>
+                  <a href="#history">Our Story</a>
+                  <ul class="dropdown">
+                    <li><a class="dropdowna" href="history.html">Brand History</a></li>
+                    <li><a class="dropdowna" href="resources.html">Plantations & Rresources</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Products</a>
+                  <ul class="dropdown">
+                    <li><a class="dropdowna" href="#">Hot Brew Tea</a></li>
+                    <li><a class="dropdownb" href="product_2.html">Gurieli Cclassic</a></li>
+                    <li><a class="dropdownb" href="product_1.html">Premium: Pince Gurieli</a></li>
+                    <li><a class="dropdownb" href="special.html">Special Edition</a></li>
+                    <li><a class="dropdowna" href="product_3.html">Iced Tea</a></li>
+                  </ul>
+                </li>
+                <li><a href="export.html">Export</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </header>
+    
+          <div class="content">
+            <div class="text1">
+              <p class="firstline"></p>
+              <h1 class="title1"></h1>
+              <h1 class="title2"></h1>
+              <p class="shortinfo"></p>
+            </div>
+            <div class="SocialMedia">
+              <a href="https://www.facebook.com/gurieliclassic/" target="_blank"><img src="SVG/fb.svg" alt=""></a>
+              <a href="https://www.instagram.com/gurieli/" target="_blank"><img src="SVG/insta.svg" alt=""></a>
+              <a href="https://www.youtube.com/channel/UC3Gypm3Bkl_Hc9NzkHfMfyA/videos" target="_blank"><img src="SVG/youtube.svg" alt=""></a>
+              <a href="#" target="_blank"><img src="SVG/linkedin.svg" alt=""></a>
+            </div>
+          </div>
+          <a href="#">
+            <button class="button1">READ MORE</button>
+          </a>
+          <a class="scroll" href="#maininfo">
+            <img  src="SVG/scroll.svg" alt="gurieli">
+          </a>
+        </div>
+    </div>
+
+    <section id="maininfo" class="maininfo">
+      <div class="history">
+        <div class="circle"></div>
+        <div class="background1">
+         <img src="IMAGES/background1.png" class="svg" alt="guria1"> 
+        </div>
+        <div class="text2">
+          <h1 id="h1_History"></h1>
+          <p id="history">From the beginning it was back in 1809, two-hundred years ago, Prince Mamia V Gurieli (1809-1826), last ruler of Guria principality in Western Georgia, took great interest in transforming and developing the agricultural sector.<br> Following the advice given by the French botanists Andre Michaux and his son Francois Andre Michaux, who were the first to bring the tea plant to the United States in 1799, the Prince ordered the first Tea - Camellia Sinensis samples. These were brought to his botanical garden by the Scotsman Jacob Montague Marr, together with other exotic plants. Cultivation of this once unknown plant has laid the grounds for the development of what in the following decades became one of the biggest agricultural industries in Georgia.</p>
+          <a href="history.html">
+            <button class="button2">READ MORE</button>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="slider-container">
+        <img class="sliderbackground" src="SVG/background2.svg" alt="gurieli">
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <div class="slider">
+          <div class="slide active">
+            <div class="product"><img src="IMAGES/product1.png" alt="Product 1"><h4>TRADITIONAL BLACK</h4><br><p class="subp">Available in different formats,<br> Prince Gurieli edition</p></div>
+            <div class="product"><img src="IMAGES/product2.png" alt="Product 2"><h4>TRADITIONAL GREEN </h4><br><p class="subp">Available in different formats, <br>Prince Gurieli edition</p></div>
+            <div class="product"><img src="IMAGES/product3.png" alt="Product 3"><h4>EARL GREY</h4><br><p class="subp">Available in different formats, Prince <br>Gurieli edition</p></div>
+            <div class="product"><img src="IMAGES/product4.png" alt="Product 4"><h4>ALPINE BERRY </h4><br><p class="subp">Available in different formats,<br>Prince Gurieli edition</p></div>
+        </div>
+        <div class="slide">
+            <div class="product"><img src="IMAGES/product5.png" alt="Product 5"><h4>TRADITIONAL BLACK</h4><br><p class="subp">Available in different formats, Gurieli</p></div>
+            <div class="product"><img src="IMAGES/product6.png" alt="Product 6"><h4>TRADITIONAL GREEN </h4><br><p class="subp">Available in different formats, Gurieli</p></div>
+            <div class="product"><img src="IMAGES/product7.png" alt="Product 7"><h4>EARL GREY </h4><br><p class="subp">Available in different formats, Gurieli</p></div>
+            <div class="product"><img src="IMAGES/product8.png" alt="Product 8"><h4>ALPINE BERRY</h4><br><p class="subp">Available in different formats, Gurieli</p></div>
+        </div>
+          
+        </div>
+        
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+      </div>
+
+      <div class="brand">
+        <div class="text3">
+          <h1 id="h1_Brand"></h1>
+          <p id="brand">Our factory is located in Ozurgeti, Guria. Gurieli tea is produced in our own production units equipped with state-of-the art machinery from TI Global (India) for the primary production of both black and green teas, blending and flavoring facilities, packing machinery from IMA S.p.A (Italy), Marden Edwards (Great Britain), Fuso (Japan).<br>The new packing factory was opened in September 2015, equipped with the best , modern machinery. It’s working at full capacity in order to provide better and more diverse packaging for our exclusive products</p>
+          <a href="resources.html">
+            <button class="button3">READ MORE</button>
+          </a>
+        </div>
+        <div class="lowcircle"></div>
+        <div class="background3">
+          <img src="IMAGES/background3.png" class="svg3" alt="GURIELI">
+        </div>
+
+      </div>
+    </section>
+
+    
+    <footer class="footer">
+        <p class="footerp">Gurieli exporting markets expands to the following countries: USA, Canada, Germany, France, Ukraine, Latvia, Lithuania, Czech Republic, Estonia and Poland.</p>
+        <a href="contact.html">
+          <button class="button4">Contact Us</button>
+        </a>
+        <div class="statistics">
+          <div class="left">
+            <div class="first"><h2>2010</h2><p>FOUNDED</p></div>
+            <div class="second"><h2>650, 000</h2><p>KGs OF PRODUCED LEAVES</p></div>
+          </div>
+          <div class="right">
+            <div class="third"><h2>150, 000</h2><p>KGs OF PACKAGED TEA</p></div>
+            <div class="forth"><h2>120, 000</h2><p>SQ M PLANTATIONS</p></div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="JS/text.js"></script>
+    <script src="JS/app.js"></script>
+
+</body>
+</html>
